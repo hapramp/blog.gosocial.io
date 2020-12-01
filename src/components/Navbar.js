@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import playstore from '../img/playstore.svg';
-import contestIcon from '../img/contest.svg';
+// import contestIcon from '../img/contest.svg';
 import challengesIcon from '../img/challenges.svg';
 import blogIcon from '../img/blog.svg';
 import announcementIcon from '../img/announcement.svg';
@@ -48,7 +48,7 @@ const Navbar = class extends React.Component {
             <Link to="/" className="" title="Logo">
               <div className="font-bold sm:font-black italic text-xl md:text-2xl lg:text-3xl uppercase text-primary ">GO.SOCIAL</div>
             </Link>
-            <Link to="/blog" className="" title="Logo">
+            <Link to="/" className="" title="Logo">
               <div className="font-bold sm:font-black italic text-xl md:text-2xl lg:text-3xl uppercase gray-70 ml-2">Blog</div>
             </Link>
           </div>
