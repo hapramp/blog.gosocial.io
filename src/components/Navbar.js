@@ -54,10 +54,10 @@ const Navbar = class extends React.Component {
           </div>
 
           <div className="hidden sm:flex">
-            <Link className="font-black italic md:text-lg lg:text-xl flex items-center px-2 md:px-4" to="/tags/contest/">
+            {/* <Link className="font-black italic md:text-lg lg:text-xl flex items-center px-2 md:px-4" to="/tags/contest/">
               <img className="mr-2 hidden lg:block" src={contestIcon} alt=""/>
               Contests
-            </Link>
+            </Link> */}
             <Link className="font-black italic md:text-lg lg:text-xl flex items-center px-2 md:px-4" to="/tags/challenge/">
               <img className="mr-2 hidden lg:block" src={challengesIcon} alt=""/>
               Challenges
@@ -75,7 +75,6 @@ const Navbar = class extends React.Component {
           <div className="flex items-center">
             <a
               className="inline-block"
-              rel="nofollow"
               href="https://play.google.com/store/apps/details?id=com.go.social.prod&referrer=utm_source%3Dgetgosocial.app%26utm_medium%3Dblog_nav%26utm_term%3Dget%252Bit%252Bon%252Bplaystore%26utm_campaign%3Dlanding_page"
               target="_blank"
               rel="noopener noreferrer"

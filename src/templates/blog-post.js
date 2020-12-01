@@ -75,7 +75,7 @@ const BlogPost = ({ data }) => {
 
   const description = post.frontmatter.description;
   const title = post.frontmatter.title;
-  const image = post.frontmatter.featuredimage?'https://getgosocial.app'+post.frontmatter.featuredimage.childImageSharp.fluid.src:post.frontmatter.bannerimage;
+  const image = post.frontmatter.featuredimage?'https://getgosocial.app'+post.frontmatter.featuredimage.childImageSharp.fluid.src:'';
   const date = post.frontmatter.date;
   const slug = post.fields.slug;
 
@@ -88,7 +88,7 @@ const BlogPost = ({ data }) => {
         featuredimage={
           post.frontmatter.featuredimage
             ? post.frontmatter.featuredimage
-            : post.frontmatter.bannerimage
+            : ''
         }
         date={post.frontmatter.date}
 
@@ -148,7 +148,6 @@ export const pageQuery = graphql`
         title
         description
         tags
-        bannerimage
         featuredimage { childImageSharp { fluid(maxWidth: 1600, quality: 100) { ...GatsbyImageSharpFluid } } }
       }
     }
