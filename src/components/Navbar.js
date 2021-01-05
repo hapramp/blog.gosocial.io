@@ -2,9 +2,9 @@ import React from 'react'
 import { Link } from 'gatsby'
 import playstore from '../img/playstore.svg';
 // import contestIcon from '../img/contest.svg';
-import challengesIcon from '../img/challenges.svg';
-import blogIcon from '../img/blog.svg';
-import announcementIcon from '../img/announcement.svg';
+// import challengesIcon from '../img/challenges.svg';
+// import blogIcon from '../img/blog.svg';
+// import announcementIcon from '../img/announcement.svg';
 // import logo from '../img/logo.svg'
 
 const Navbar = class extends React.Component {
@@ -53,11 +53,11 @@ const Navbar = class extends React.Component {
             </Link>
           </div>
 
-          <div className="hidden sm:flex">
-            {/* <Link className="font-black italic md:text-lg lg:text-xl flex items-center px-2 md:px-4" to="/tags/contest/">
+          {/* <div className="hidden sm:flex">
+            <Link className="font-black italic md:text-lg lg:text-xl flex items-center px-2 md:px-4" to="/tags/contest/">
               <img className="mr-2 hidden lg:block" src={contestIcon} alt=""/>
               Contests
-            </Link> */}
+            </Link>
             <Link className="font-black italic md:text-lg lg:text-xl flex items-center px-2 md:px-4" to="/tags/challenge/">
               <img className="mr-2 hidden lg:block" src={challengesIcon} alt=""/>
               Challenges
@@ -70,7 +70,7 @@ const Navbar = class extends React.Component {
               <img className="mr-2 hidden lg:block" src={announcementIcon} alt=""/>
               Announcements
             </Link>
-          </div>
+          </div> */}
 
           <div className="flex items-center">
             <a
