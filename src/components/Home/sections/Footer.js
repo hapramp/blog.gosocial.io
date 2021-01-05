@@ -10,6 +10,7 @@ const Footer = () => {
           <div className="ml-2 text-lg">By <a className="border-white border-b-2 ml-2" href="https://hapramp.com" rel="noreferrer" target="_blank">HapRamp Studio</a></div>
         </div>
         <ul className="flex text-lg flex-wrap -ml-6 md:ml-8 md:mt-4">
+        <li className="ml-6 mb-4"><a href="https://about.gosocial.io/" rel="noopener noreferrer" target="_blank">About</a></li>
           <li className="ml-6 mb-4"><Link to="/" >Blog</Link></li>
           <li className="ml-6 mb-4"><a href="https://facebook.com/gosocial.io/" rel="noreferrer" target="_blank">Facebook</a></li>
           <li className="ml-6 mb-4"><a href="https://instagram.com/gosocial.io/" rel="noreferrer" target="_blank">Instagram</a></li>
